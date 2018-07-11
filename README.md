@@ -13,4 +13,9 @@ learning-spring-cloud
 - `zuul-service` - This is the Gateway/Edge Service which is registered with Eureka and routes the requests to Client
  and Server using Eureka Service with Hystrix support.
 
-上面是一个最简单的spring cloud示例.
+上面是一个最简单的spring cloud示例, 可以理解:
+
+- 服务注册和发现
+- 服务调用
+- 网关服务
+- 断路器使用
