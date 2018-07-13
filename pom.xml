@@ -13,6 +13,7 @@
     <module>hello-server</module>
     <module>hello-client</module>
     <module>zuul-service</module>
+    <module>zipkin-server</module>
   </modules>
 
 
