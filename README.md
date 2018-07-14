@@ -12,6 +12,7 @@ learning-spring-cloud
 - `hello-client` - The Service which is going to get data from Server via the Discovery Service from the Service Registry (`eureka-service`).
 - `zuul-service` - This is the Gateway/Edge Service which is registered with Eureka and routes the requests to Client
  and Server using Eureka Service with Hystrix support.
+- `hystrix-turbine` - The Hystrix and turbine.
 - `zipkin-server` - The service invoke monitor.
 
 上面是一个最简单的spring cloud示例, 可以理解:
